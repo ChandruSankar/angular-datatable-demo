@@ -1,0 +1,49 @@
+.datatable-container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.datatable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.datatable th,
+.datatable td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+
+}
+
+.datatable tr:nth-child(even) {
+    background-color: #EBEBEB;
+    border-bottom: 1px solid #ddd;
+}
+
+.datatable th {
+font-style: bold;
+    /* color: white; */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination button {
+    margin: 0 5px;
+    background-color: green;
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.pagination button img {
+    filter: invert(1);
+}
